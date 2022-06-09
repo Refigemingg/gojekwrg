@@ -8,7 +8,7 @@ echo color("white","            Format Nomor 62***\n");
 sleep(1);
 echo color("white","  ");
 function change(){
-        $nama = nama();
+        $nama = "raplii";
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
         ulang:
         echo color("white","\n NOMOR : ");
